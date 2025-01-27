@@ -1,0 +1,1 @@
+This error occurs when using the `Dimensions` API in React Native to get screen dimensions. The problem arises when accessing the `window` property within the `Dimensions` object before the component has fully mounted.  This can happen if you try to access the dimensions in the component's constructor or before the `useEffect` hook has finished its first execution.
